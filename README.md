@@ -1,2 +1,2 @@
-# JavaScript-all-g-
+# JavaScript-optimisation
 Exercice d'optimisation JavaScript
