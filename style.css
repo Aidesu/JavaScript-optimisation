@@ -1,0 +1,47 @@
+/* Héros avec image de fond lourde */
+.header-hero {
+  background-image: url("https://picsum.photos/1920/1080?blur=1");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  width: 100%;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+}
+
+/* Navigation cachée via .collapse de Bootstrap + notre surcouche */
+.main-nav {
+  background: linear-gradient(120deg, #111, #333);
+}
+
+/* Ombres et effets superflus */
+.card-heavy {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+  border-radius: 1.25rem;
+}
+
+/* Over-qualifieurs et règles probablement mortes */
+.img-fluid.shadow-lg {
+  border: 8px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Slider */
+.hero-slider img {
+  width: 100%;
+  display: block;
+}
+
+/* Typo: familles multiples déclarées mais Bootstrap impose déjà ses tailles */
+body {
+  font-family: "Open Sans", "Roboto", "Lora", serif;
+  letter-spacing: 0.01em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Lora", "Open Sans", serif;
+}
+
+/* .massiveCum img {
+  width: 450;
+  height: 300;
+} */
